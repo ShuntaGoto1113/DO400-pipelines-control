@@ -10,7 +10,7 @@ pipeline{
         }
 
         stage('Frontend Tests') {
-            sh 'node ./frontend/test.js
+            sh 'node ./frontend/test.js'
         }
     }
 
